@@ -1,0 +1,25 @@
+{
+  "name": "amul-sap-mapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/masterLoader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinith010603/amul-sap-mapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vinith010603/amul-sap-mapper/issues"
+  },
+  "homepage": "https://github.com/Vinith010603/amul-sap-mapper#readme",
+  "dependencies": {
+    "pdfjs-dist": "^6.0.227",
+    "xlsx": "^0.18.5"
+  }
+}
