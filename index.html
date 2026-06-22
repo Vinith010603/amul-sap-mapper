@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AMUL SAP Mapper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f5f7fa;
+            padding:20px;
+            text-align:center;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            border-radius:12px;
+            max-width:600px;
+            margin:auto;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1{
+            color:#d71920;
+        }
+
+        button{
+            background:#d71920;
+            color:white;
+            border:none;
+            padding:12px 20px;
+            border-radius:8px;
+            cursor:pointer;
+            margin-top:10px;
+        }
+
+        button:hover{
+            opacity:0.9;
+        }
+
+        #status{
+            margin-top:20px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>AMUL SAP Mapper</h1>
+
+<p>
+Upload your Amul Article Master and Purchase Orders.
+</p>
+
+<input type="file" id="masterFile">
+
+<br><br>
+
+<input type="file" id="poFile">
+
+<br><br>
+
+<button onclick="processPO()">
+Process PO
+</button>
+
+<div id="status"></div>
+
+</div>
+
+<script>
+
+function processPO(){
+
+document.getElementById("status").innerHTML =
+"Version 1 Loaded Successfully ✅";
+
+}
+
+</script>
+
+</body>
+</html>
